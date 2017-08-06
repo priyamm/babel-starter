@@ -1,0 +1,22 @@
+{
+  "name": "babel-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "babel-version": "babel --version",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "./node_module/.bin/babel",
+    "clean": "rm -rf dist",
+    "build": "npm rum clean && mkdir dist && babel server -s -d dist",
+    "production": "npm run build && node bin/production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.24.1"
+  }
+}

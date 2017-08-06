@@ -1,0 +1,1 @@
+{"version":3,"sources":["../server/index.js"],"names":[],"mappings":";;AAAA;;;;;;AACA,qBAAM,eAAN","file":"index.js","sourcesContent":["import print from './print';\nprint('It\\'s working');\n"]}

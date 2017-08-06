@@ -1,0 +1,1 @@
+{"version":3,"sources":["../server/print.js"],"names":["print","msg","console","log"],"mappings":";;;;;AAAA,IAAMA,QAAQ,SAARA,KAAQ,CAACC,GAAD,EAAS;AACrBC,UAAQC,GAAR,CAAY,uBAAuBF,GAAnC;AACD,CAFD;;kBAIeD,K","file":"print.js","sourcesContent":["const print = (msg) => {\n  console.log(`Your message is : ` + msg);\n}\n\nexport default print;\n"]}
